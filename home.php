@@ -17,7 +17,7 @@ if (isset($_SESSION["username"])) {
 <HTML>
 
 <HEAD>
-    <TITLE>Welcome</TITLE>
+    <TITLE>Hola de nuevo</TITLE>
     <link href="assets/css/cweb-style.css" type="text/css" rel="stylesheet" />
     <link href="assets/css/user-registration.css" type="text/css" rel="stylesheet" />
 </HEAD>
@@ -27,7 +27,7 @@ if (isset($_SESSION["username"])) {
         <div class="page-header">
             <span class="login-signup"><a href="logout.php">Logout</a></span>
         </div>
-        <div class="page-content">Welcome <?php echo $username; ?></div>
+        <div class="page-content">Hola de nuevo <?php echo $username; ?></div>
     </div>
 </BODY>
 
